@@ -107,7 +107,12 @@
     }
     /* belong to second section */
 
-   
+    .see-more{
+        margin-top: 50px;
+    }
+    .see-more a{
+        font-size: 18px;
+    }
 }
 
 @media(max-width:480px) {

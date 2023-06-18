@@ -88,3 +88,29 @@
     margin-top: 233px;
 
 }
+
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 133px;
+    cursor: pointer;
+}
+
+.see-more a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    gap: 17px;
+
+    color: #2D9CDB;
+}
+.see-more a span{
+    font-size: 14px;
+}
