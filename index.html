@@ -6,6 +6,13 @@
     <title>EDIE</title>
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
     />
     <link
@@ -16,11 +23,64 @@
   </head>
   <body>
     <!-- header start -->
+    <header>
+      <div class="header-container">
+        <div class="hamburger">
+          <h1 class="text-h1">Edie</h1>
+        </div>
 
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="#"> Home </a>
+            </li>
+            <li>
+              <a href="#"> Services </a>
+            </li>
+            <li>
+              <a href="#"> Our Works </a>
+            </li>
+            <li>
+              <a href="#"> Clients </a>
+            </li>
+            <li>
+              <a href="#"> Contact</a>
+            </li>
+          </ul>
+          <a href="#" class="menu-btn"> <i class="fa-solid fa-bars"></i></a>
+        </nav>
+      </div>
+    </header>
     <!-- header end -->
     <main>
       <!-- first section start -->
 
+      <section id="first-section">
+        <div class="text-content-up">
+          <p>Unhappy with your website?</p>
+
+          <h1>We create beautiful and fast web services</h1>
+        </div>
+
+        <div class="wrapper">
+          <img src="./assets/images/firstSection/heroImage.jpg" alt="err" />
+        </div>
+
+        <div class="text-content-down">
+          <h1>Story, emotion and purpose</h1>
+          <p class="p1">
+            We help transform your ideas into real world applications that will
+            outperform your toughest competition and help you achieve your
+            strategic goals in short period of time.
+          </p>
+          <p class="p2">Want us to contact you?</p>
+          <div class="email-contact">
+            <input type="text" placeholder="Email" />
+            <button>Join</button>
+          </div>
+        </div>
+      </section>
+      
       <!-- first section end -->
       <!-- second section start -->
       <section id="second">
@@ -96,7 +156,11 @@
             </div>
             <div class="boxes-right">
               <div class="box">
-                <img class="onboard" src="assets/images/thirdSection/onboard.png" alt="" />
+                <img
+                  class="onboard"
+                  src="assets/images/thirdSection/onboard.png"
+                  alt=""
+                />
                 <p>UX/UI design</p>
                 <h3>Onboard application</h3>
               </div>
@@ -110,8 +174,6 @@
                 <h3>Juice product homepage</h3>
               </div>
             </div>
-            
-            
           </div>
         </div>
       </section>
@@ -123,7 +185,7 @@
     </main>
 
     <!-- fotter start -->
-    
+
     <!-- fotter end -->
   </body>
 </html>
