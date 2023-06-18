@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(assets/style/_secondSection.css);
+@import url(assets/style/_media.css);
+@import url(assets/style/_thridSection.css);
+@import url(assets/style/_reset.css);
+
+
+@media(max-width:1150px) {
+    .boxes img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .title,
+    h2 {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 110px;
+    }
+}
+
+@media(max-width:1024px) {
+
+    #second,
+    #thrid {
+        padding: 50px;
+    }
+
+  /* belong to second section */
+    .cards {
+        justify-content: flex-start;
+    }
+    .title,
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        font-size: 32px;
+        margin-left: 0;
+    }
+ /* belong to second section */
+
+
+ /* belong to thrid section */
+ .boxes img {
+    width: 300px;
+    height: 300px;
+}
+    .business-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .business-title h2 {
+        font-size: 32px;
+    }
+/* belong to thrid section */
+    
+}
+
+@media(max-width:768px) {
+
+    /* belong to thrid section */
+    .smarthome,
+    .juice-product,
+    .booking-system {
+        margin-top: 0;
+
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+    .box {
+        justify-content: center;
+        align-items: center;
+
+    }
+    .box h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .box p{
+        font-size: 12px;
+    }
+    .boxes-left,
+    .boxes-right {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .business-title h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    /* belong to thrid section */
+
+    /* belong to second section */
+    .title,
+    h2 {
+        font-size: 24px;
+    }
+    /* belong to second section */
+
+   
+}
+
+@media(max-width:480px) {
+    /* belong to second section */
+    .card {
+        padding: 46px 20px;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card h4 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+
+    .card button {
+        width: 90px;
+        height: 36px;
+    }
+    /* belong to second section */
+
+    /* belong to thrid section */
+    .boxes img {
+        width: 200px;
+        height: 200px;
+    }
+    /* belong to thrid section */
+}

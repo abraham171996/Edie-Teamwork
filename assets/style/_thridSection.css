@@ -1,0 +1,90 @@
+#thrid {
+    width: 100%;
+    padding: 100px;
+}
+
+.business {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.business-title {
+    padding-left: 200px;
+}
+
+.business-title h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    margin-left: 0;
+    color: #333333;
+}
+
+.boxes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.box h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.onboard {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.smarthome {
+    width: 450px;
+    height: 450px;
+    border-radius: 24px;
+    object-fit: cover;
+    margin-top: 188px;
+}
+
+.juice-product {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 24px;
+    margin-top: 236px;
+}
+
+.booking-system {
+
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 24px;
+    margin-top: 233px;
+
+}
