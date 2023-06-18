@@ -30,10 +30,20 @@
   line-height: 27px;
 }
 
-@media (max-width: 544px) {
+@media (max-width: 545px) {
   .text-content-up > h1 {
     color: #333333;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: "Poppins";
+    max-width: 300px;
+    height: 100%;
+    line-height: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .text-content-up > h1 {
+    color: #333333;
+    font-size: 25px;
     font-family: "Poppins";
     max-width: 300px;
     height: 100%;
@@ -81,7 +91,35 @@
   font-weight: 500;
   line-height: 41px;
 }
+@media (max-width: 545px) {
+  .text-content-down > h1 {
+    color: #333333;
+    font-size: 25px;
+    font-family: "Poppins";
+    max-width: 240px;
+    height: 100%;
+    line-height: 50px;
+  }
+  .text-content-down > .p1 {
+    font-size: 14px;
+    line-height: 30px;
+    color: #4f4f4f;
+    width: 240px;
+ 
+  }
+}
 
+@media (max-width: 480px) {
+  .text-content-down > h1 {
+    color: #333333;
+    font-size: 25px;
+    font-family: "Poppins";
+    max-width: 300px;
+    height: 100%;
+    line-height: 50px;
+  }
+}
+/* ========================= */
 .email-contact {
   position: relative;
   width: 250px;
@@ -113,19 +151,14 @@
   background-color: #2d9cdb;
   border-radius: 12px;
 }
-@media (max-width: 544px) {
-  .text-content-down > h1 {
-    color: #333333;
-    font-size: 30px;
-    font-family: "Poppins";
-    max-width: 240px;
-    height: 100%;
-    line-height: 50px;
-  }
-  .text-content-down > .p1 {
-    font-size: 14px;
-    line-height: 30px;
-    color: #4f4f4f;
-    width: 300px;
-  }
+
+@media (max-width: 480px) {
+.email-contact {
+  position: relative;
+  width: 200px;
+  height: 40px;
+}
+.email-contact > button {
+height: 40px;
+}
 }
