@@ -1,0 +1,128 @@
+/* Footer */
+footer {
+    background-color: #100e1d;
+    padding: 20px;
+    color: #f2f2f2;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-left li {
+    margin-right: 15px;
+    line-height: 30px;
+  }
+  
+  .footer-left a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-left a:hover {
+    color: #eb5757;
+  }
+  .footer-center--name{
+    display: flex;
+    justify-content: center;
+  }
+  .footer-center--name h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #F2F2F2;
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .footer-center--social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    color: #f2f2f2;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .footer-center--social a:hover {
+    background-color: #eb5757;
+  }
+  .footer-right--word p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    animation: fade-in 2s ease;
+  }
+  
+  .footer-right--email {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    padding: 6px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #F2F2F2;
+  }
+  
+  .footer-right--input {
+
+    width: 200px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .footer-right--btn {
+    padding: 8px;
+    background-color: #2d9cdb;
+    color: #f2f2f2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer-right--btn:hover {
+    background-color: #eb5757;
+  }
+  
+  .footer-bottom {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color: gray;
+  }
+  
+  .footer-bottom a {
+    color: gray;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-bottom a:hover {
+    color: #eb5757;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
